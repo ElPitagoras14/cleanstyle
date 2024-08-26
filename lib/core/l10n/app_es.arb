@@ -1,0 +1,16 @@
+{
+  "@@locale": "es",
+  "app_title": "Clean Style",
+  "theme_mode_system": "Sistema",
+  "theme_mode_light": "Claro",
+  "theme_mode_dark": "Oscuro",
+  "navigation_closet": "Armario",
+  "navigation_outfit": "Conjunto",
+  "navigation_settings": "Ajustes",
+  "closet_title": "Armario",
+  "closet_type_item_all": "Todos",
+  "closet_type_item_tops": "Camisetas",
+  "closet_type_item_bottoms": "Pantalones",
+  "closet_type_item_shoes": "Zapatos",
+  "closet_type_item_accessories": "Accesorios"
+}

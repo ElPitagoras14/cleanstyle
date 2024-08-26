@@ -1,0 +1,16 @@
+{
+  "@@locale": "en",
+  "app_title": "Clean Style",
+  "theme_mode_system": "System",
+  "theme_mode_light": "Light",
+  "theme_mode_dark": "Dark",
+  "navigation_closet": "Closet",
+  "navigation_outfit": "Outfit",
+  "navigation_settings": "Settings",
+  "closet_title": "Closet",
+  "closet_type_item_all": "All",
+  "closet_type_item_tops": "Tops",
+  "closet_type_item_bottoms": "Bottoms",
+  "closet_type_item_shoes": "Shoes",
+  "closet_type_item_accessories": "Accessories"
+}
