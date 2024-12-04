@@ -12,5 +12,7 @@
   "closet_type_item_tops": "Camisetas",
   "closet_type_item_bottoms": "Pantalones",
   "closet_type_item_shoes": "Zapatos",
-  "closet_type_item_accessories": "Accesorios"
+  "closet_type_item_accessories": "Accesorios",
+  "outfit_title": "Conjunto",
+  "settings_title": "Ajustes"
 }

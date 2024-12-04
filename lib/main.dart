@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
     return Consumer2<LocaleModel, ThemeStyleModel>(
         builder: (context, localeModel, themeModel, child) {
       return MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Clean Style',
         locale: Provider.of<LocaleModel>(context).locale,
         supportedLocales: const [
           Locale('en', ''),
