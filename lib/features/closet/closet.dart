@@ -7,17 +7,48 @@ class ClosetScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final List<String> categories = [
+      "All",
+      "Shirts",
+      "Pants",
+      "Socks",
+    ];
+
     return Scaffold(
-      appBar: AppBar(
-        title: Text(AppLocalizations.of(context)!.closet_title),
-      ),
-      body: const Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[],
+        appBar: AppBar(
+          title: Text(AppLocalizations.of(context)!.closet_title),
         ),
-      ),
-      bottomNavigationBar: const CustomBottomNavigationBar(currentIndex: 0)
-    );
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: <Widget>[
+            Padding(
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 12.0, vertical: 8.0),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Row(
+                    children: categories.map((category) {
+                      return Padding(
+                        padding: const EdgeInsets.only(right: 8.0),
+                        child: Chip(
+                          label: Text(category),
+                        ),
+                      );
+                    }).toList(),
+                  ),
+                  const TextField(
+                    obscureText: true,
+                    decoration: InputDecoration(
+                      border: OutlineInputBorder(),
+                      labelText: "s",
+                    ),
+                  )
+                ],
+              ),
+            ),
+          ],
+        ),
+        bottomNavigationBar: const CustomBottomNavigationBar(currentIndex: 0));
   }
 }
