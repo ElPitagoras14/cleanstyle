@@ -13,6 +13,10 @@
   "closet_type_item_bottoms": "Pantalones",
   "closet_type_item_shoes": "Zapatos",
   "closet_type_item_accessories": "Accesorios",
+  "add_clothe_palette": "Paleta",
+  "add_clothe_type": "Tipo de prenda",
+  "add_clothe_style": "Estilo",
+  "add_clothe_brand": "Marca",
   "outfit_title": "Conjunto",
   "settings_title": "Ajustes"
 }

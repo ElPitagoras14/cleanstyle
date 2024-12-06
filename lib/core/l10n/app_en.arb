@@ -13,6 +13,10 @@
   "closet_type_item_bottoms": "Bottoms",
   "closet_type_item_shoes": "Shoes",
   "closet_type_item_accessories": "Accessories",
+  "add_clothe_palette": "Palette",
+  "add_clothe_type": "Clothe type",
+  "add_clothe_style": "Style",
+  "add_clothe_brand": "Brand",
   "outfit_title": "Outfit",
   "settings_title": "Settings"
 }

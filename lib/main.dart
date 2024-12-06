@@ -2,6 +2,7 @@ import 'package:cleanstyle/core/global_theme.dart';
 import 'package:cleanstyle/core/providers/locale_model.dart';
 import 'package:cleanstyle/core/providers/theme_style_model.dart';
 import 'package:cleanstyle/features/closet/closet.dart';
+import 'package:cleanstyle/features/closet/add_clothe.dart';
 import 'package:cleanstyle/features/outfits/outfits.dart';
 import 'package:cleanstyle/features/settings/settings.dart';
 import 'package:flutter/material.dart';
@@ -42,6 +43,7 @@ class MyApp extends StatelessWidget {
         routes: {
           "/": (context) => const ClosetScreen(),
           "/closet": (context) => const ClosetScreen(),
+          "/closet/add-clothe": (context) => const AddClotheScreen(),
           "/outfits": (context) => const OutfitsScreen(),
           "/settings": (context) => const SettingsScreen(),
         },
