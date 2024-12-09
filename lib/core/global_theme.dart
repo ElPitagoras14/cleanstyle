@@ -7,10 +7,6 @@ class GlobalTheme {
       seedColor: Colors.indigo,
       brightness: Brightness.light,
     ),
-    // appBarTheme: const AppBarTheme(
-    //   backgroundColor: Colors.indigo,
-    //   foregroundColor: Colors.white,
-    // ),
     scaffoldBackgroundColor: Colors.white,
   );
 
@@ -20,10 +16,6 @@ class GlobalTheme {
       seedColor: Colors.indigo,
       brightness: Brightness.dark,
     ),
-    // appBarTheme: AppBarTheme(
-    //   backgroundColor: Colors.indigo[700],
-    //   foregroundColor: Colors.white,
-    // ),
     scaffoldBackgroundColor: Colors.black,
   );
 }

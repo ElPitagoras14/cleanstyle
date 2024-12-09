@@ -1,9 +1,6 @@
 {
   "@@locale": "en",
   "app_title": "Clean Style",
-  "theme_mode_system": "System",
-  "theme_mode_light": "Light",
-  "theme_mode_dark": "Dark",
   "navigation_closet": "Closet",
   "navigation_outfit": "Outfit",
   "navigation_settings": "Settings",
@@ -18,5 +15,18 @@
   "add_clothe_style": "Style",
   "add_clothe_brand": "Brand",
   "outfit_title": "Outfit",
-  "settings_title": "Settings"
+  "settings_title": "Settings",
+  "settings_language_title": "Language",
+  "settings_language_description": "Change the language",
+  "settings_language_option_spanish": "Spanish",
+  "settings_language_option_english": "English",
+  "settings_clothes_tittle": "Clothes",
+  "settings_clothes_description": "Define clothe configuration",
+  "settings_data_tittle": "Data",
+  "settings_data_description": "Manage your data",
+  "settings_theme_title": "Theme",
+  "settings_theme_description": "Choose your theme",
+  "settings_theme_option_light": "Light",
+  "settings_theme_option_dark": "Dark",
+  "settings_theme_option_system": "System"
 }
